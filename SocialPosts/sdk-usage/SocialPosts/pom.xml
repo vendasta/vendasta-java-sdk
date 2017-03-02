@@ -17,7 +17,7 @@
     <dependency>
     	<groupId>com.vendasta</groupId>
     	<artifactId>socialposts.v1</artifactId>
-    	<version>1.0.1</version>
+    	<version>1.0.2</version>
     </dependency>
   </dependencies>
 </project>

@@ -104,13 +104,8 @@ public class SocialPostsClient {
     			.build();
     	
     	ListSocialPostResponse response;
-    	try {
-    		response = blockingStub.list(request);
-    	} catch (StatusRuntimeException e) {
-    	    System.out.println("Failed to get social posts from server: " + e.toString());
-    	    return null;
-    	}
-    	
+    	response = blockingStub.list(request);
+    	    	
     	return response;
     }
     
@@ -127,13 +122,7 @@ public class SocialPostsClient {
     			.build();
     	
     	ListSocialPostResponse response;
-    	try {
-    		response = blockingStub.list(request);
-    	} catch (StatusRuntimeException e) {
-    	    System.out.println("Failed to get social posts from server: " + e.toString());
-    	    return null;
-    	}
-    	
+   		response = blockingStub.list(request); 	
     	return response;
     }
     
